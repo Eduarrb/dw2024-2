@@ -1,9 +1,9 @@
 body {
   margin: 0;
 }
-
+/* NAV */
 nav {
-  border: 3px solid blue;
+  /* border: 3px solid blue; */
   /* display: flex; */
   /* justify-content: center; */
 }
@@ -52,4 +52,32 @@ nav div ul li a {
   /* border: 3px solid black; */
   padding: 7px 8px 5px 8px;
   display: inline-block;
+}
+
+/* HEADER */
+header {
+  background-image: url(../img/portada.jpg);
+}
+
+header div {
+  border: 3px solid black;
+  width: 60%;
+  margin-left: auto;
+  margin-right: auto;
+}
+header div h1 {
+  margin-top: 0;
+  margin-bottom: 0;
+  color: #ff6818;
+  font-size: 88px;
+  font-family: "Oswald", sans-serif;
+  /* = 0 */
+  line-height: 98px;
+}
+
+header div p {
+  font-family: "Open Sans", sans-serif;
+  font-size: 16px;
+  font-style: italic;
+  color: rgb(85, 92, 102);
 }
