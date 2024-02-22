@@ -60,7 +60,7 @@ header {
 }
 
 header div {
-  border: 3px solid black;
+  /* border: 3px solid black; */
   width: 60%;
   margin-left: auto;
   margin-right: auto;
@@ -80,4 +80,15 @@ header div p {
   font-size: 16px;
   font-style: italic;
   color: rgb(85, 92, 102);
+}
+
+header div form {
+  display: flex;
+}
+
+/* header div form input:first-child { */
+/* header div form input:nth-child(2) { */
+/* header div form input:nth-child(even) { */
+header div form input[type="submit"] {
+  font-size: 18px;
 }
