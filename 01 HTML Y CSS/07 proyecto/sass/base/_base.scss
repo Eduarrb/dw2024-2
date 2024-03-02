@@ -17,6 +17,10 @@ html {
     font-family: $font-khula;
 }
 
+a, span {
+    display: inline-block;
+}
+
 a {
     text-decoration: none;
 }
