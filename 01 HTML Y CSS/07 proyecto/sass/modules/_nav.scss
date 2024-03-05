@@ -88,4 +88,47 @@
             }
         }
     }
+    &__search {
+        background-color: $color-secondary;
+        &__contenedor {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            &__category {
+                background-color: $color-primary;
+                color: white;
+                font-size: 1.4rem;
+                text-transform: uppercase;
+                padding: 2rem 2rem 1.7rem 2rem;
+                font-weight: 600;
+            }
+            &__form {
+                background-color: white;
+                display: flex;
+                align-items: center;
+                font-size: 1.3rem;
+                border-radius: 0.5rem;
+                padding-right: 2rem;
+                overflow: hidden;
+                input,
+                select {
+                    border: none;
+                    outline: 0;
+                    padding: 1.5rem 2rem 1.2rem 2rem;
+                }
+                input {
+                    border-right: 1px solid rgba(black, 0.2);
+                    width: 40rem;
+                    // border-radius: 0.5rem 0 0 0.5rem;
+                }
+                select {
+                    color: rgb(136, 136, 136);
+                    appearance: none;
+                }
+                i {
+                    color: rgb(136, 136, 136);
+                }
+            }
+        }
+    }
 }
