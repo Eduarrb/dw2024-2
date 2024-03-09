@@ -509,9 +509,11 @@ ul, ol {
 }
 .portada__top__contenedor__box--t1 {
   font-size: 1.6rem;
+  margin-bottom: -0.5rem;
 }
 .portada__top__contenedor__box--t2 {
   font-size: 9rem;
+  margin-bottom: -4rem;
 }
 .portada__top__contenedor__box--t3 {
   font-size: 5rem;
@@ -532,6 +534,43 @@ ul, ol {
   background-color: rgb(51, 51, 51);
   color: white;
   transition: ease 0.3s;
+}
+.portada__bottom {
+  display: flex;
+  flex-wrap: wrap;
+}
+.portada__bottom img {
+  display: block;
+  width: 25%;
+}
+
+.cards__contenedor {
+  display: flex;
+  flex-wrap: wrap;
+  column-gap: 3rem;
+}
+.cards__contenedor__item {
+  background-color: rgb(244, 244, 244);
+  border: 2px solid #e5e5e5;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 3rem;
+  width: calc(25% - 2.25rem);
+}
+.cards__contenedor__item i {
+  color: rgb(0, 132, 197);
+  font-size: 3rem;
+}
+.cards__contenedor__item--titulo {
+  font-size: 2rem;
+  font-weight: 700;
+  color: rgb(51, 51, 51);
+  margin-top: 2rem;
+}
+.cards__contenedor__item--descri {
+  font-size: 1.4rem;
+  color: rgb(51, 51, 51);
 }
 
 /*# sourceMappingURL=estilos.css.map */
