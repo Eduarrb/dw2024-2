@@ -2,11 +2,17 @@
     padding-top: 21.5rem;
     &__top {
         position: relative;
-        // display: flex;
-        // justify-content: center;
+        @media only screen and (max-width: $bp-large) {
+            background-image: url(../img/portada.jpg);
+            background-position: center;
+            background-size: cover;
+        }
         &--img {
             width: 100%;
             display: block;
+            @media only screen and (max-width: $bp-large) {
+                display: none;
+            }
         }
         &__contenedor {
             position: absolute;
@@ -19,6 +25,13 @@
             display: flex;
             @media only screen and (max-width: $bp-extraLarge) {
                 width: auto;
+            }
+            @media only screen and (max-width: $bp-large) {
+                position: static;
+                transform: none;
+                padding: 5rem 0;
+                display: flex;
+                justify-content: center;
             }
             &__box {
                 color: white;
@@ -36,12 +49,22 @@
                 &--t2 {
                     font-size: 9rem;
                     margin-bottom: -4rem;
+                    @media only screen and (max-width: $bp-large) {
+                        font-size: 5rem;
+                        margin-bottom: -1rem;
+                    }
                 }
                 &--t3 {
                     font-size: 5rem;
+                    @media only screen and (max-width: $bp-large) {
+                        font-size: 2rem;
+                    }
                 }
                 &--t4 {
                     font-size: 2.5rem;
+                    @media only screen and (max-width: $bp-large) {
+                        font-size: 1.8rem;
+                    }
                 }
                 &--btn {
                     background-color: white;
@@ -66,6 +89,12 @@
         img {
             display: block;
             width: 25%;
+            @media only screen and (max-width: $bp-large) {
+                width: 50%;
+            }
+            @media only screen and (max-width: $bp-small) {
+                width: 100%;
+            }
         }
     }
 }

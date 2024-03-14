@@ -32,6 +32,9 @@ html {
     */
     font-size: 62.5%;
     font-family: $font-khula;
+    @media only screen and (max-width: $bp-small) {
+        font-size: 50%;
+    }
 }
 
 a, span {
