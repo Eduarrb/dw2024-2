@@ -1,3 +1,14 @@
+/*
+    1EM = 16px
+
+    1200px / 16px = 75em 
+    992px = 62em
+    768px = 48em
+    576px = 36em
+    420px = 26.25em
+    380px = 23.75em
+
+*/
 * {
   margin: 0;
   padding: 0;
@@ -25,10 +36,19 @@ ul, ol {
   list-style: none;
 }
 
+.d-hide {
+  display: none;
+}
+
 .contenedor {
   max-width: 120rem;
   margin-left: auto;
   margin-right: auto;
+}
+@media only screen and (max-width: 75em) {
+  .contenedor {
+    max-width: 96rem;
+  }
 }
 
 .pt-1 {
@@ -383,6 +403,7 @@ ul, ol {
 }
 .nav__menu {
   background-color: white;
+  box-shadow: 0 0.5rem 1.5rem rgba(0, 0, 0, 0.1);
 }
 .nav__menu__contenedor {
   display: flex;
@@ -463,6 +484,7 @@ ul, ol {
   border-radius: 0.5rem;
   padding-right: 2rem;
   overflow: hidden;
+  width: 50%;
 }
 .nav__search__contenedor__form input,
 .nav__search__contenedor__form select {
@@ -472,7 +494,7 @@ ul, ol {
 }
 .nav__search__contenedor__form input {
   border-right: 1px solid rgba(0, 0, 0, 0.2);
-  width: 40rem;
+  width: 63%;
 }
 .nav__search__contenedor__form select {
   color: rgb(136, 136, 136);
@@ -509,6 +531,11 @@ ul, ol {
   left: 50%;
   transform: translate(-50%, -50%);
   display: flex;
+}
+@media only screen and (max-width: 75em) {
+  .portada__top__contenedor {
+    width: auto;
+  }
 }
 .portada__top__contenedor__box {
   color: white;

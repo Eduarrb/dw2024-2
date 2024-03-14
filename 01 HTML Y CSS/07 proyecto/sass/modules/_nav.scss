@@ -33,6 +33,7 @@
     }
     &__menu {
         background-color: white;
+        box-shadow: 0 0.5rem 1.5rem rgba(black, 0.1);
         &__contenedor {
             display: flex;
             justify-content: space-between;
@@ -114,6 +115,7 @@
                 border-radius: 0.5rem;
                 padding-right: 2rem;
                 overflow: hidden;
+                width: 50%;
                 input,
                 select {
                     border: none;
@@ -122,8 +124,7 @@
                 }
                 input {
                     border-right: 1px solid rgba(black, 0.2);
-                    width: 40rem;
-                    // border-radius: 0.5rem 0 0 0.5rem;
+                    width: 63%;
                 }
                 select {
                     color: rgb(136, 136, 136);

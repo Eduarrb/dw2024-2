@@ -2,11 +2,17 @@ $color-primary: rgb(0, 132, 197);
 $color-secondary: rgb(51, 51, 51);
 $color-secondary-ligth: rgb(102, 102, 102);
 
+.d-hide {
+    display: none;
+}
 
 .contenedor {
     max-width: 120rem;
     margin-left: auto;
     margin-right: auto;
+    @media only screen and (max-width: $bp-extraLarge) {
+        max-width: 96rem;
+    }
 }
 
 .pt-1 {

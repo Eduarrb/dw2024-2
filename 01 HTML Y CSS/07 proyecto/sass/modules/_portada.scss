@@ -17,6 +17,9 @@
             left: 50%;
             transform: translate(-50%, -50%);
             display: flex;
+            @media only screen and (max-width: $bp-extraLarge) {
+                width: auto;
+            }
             &__box {
                 color: white;
                 text-align: center;
