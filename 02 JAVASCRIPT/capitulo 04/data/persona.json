@@ -1,0 +1,16 @@
+{
+    "persona1": {
+        "nombre": "Juan",
+        "edad": 16,
+        "habilidades": [
+            {
+                "correr": "20kmp"
+            }
+        ]
+    },
+    "persona2": {
+        "nombre": "Lucia",
+        "apellidos": "Aliga",
+        "edad": 21
+    }
+}
