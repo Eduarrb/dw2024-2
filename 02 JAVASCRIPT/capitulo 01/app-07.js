@@ -88,6 +88,3 @@ personaje.crearPlantilla();
 console.log(personaje.plantilla);
 const bloque1 = document.querySelector('.bloque1');
 personaje.printHtml(bloque1);
-
-
-
